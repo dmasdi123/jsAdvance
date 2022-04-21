@@ -37,23 +37,46 @@
 
 // let febrian = Mahasiswa('Dimas', 20);
 
-
-//contructor function--------------------------
-function Mahasiswa(nama, energy) {
-    this.nama = nama;
-    this.energy = energy;
-
-    this.makan = function(porsi) {
+//function declaration with object.create-------------------------
+const  methodMahasiswa = {
+    makan: function(porsi) {
         this.energy += porsi;
         console.log(`Hello ${this.nama}`);
     }
 
-    this.main = function(waktu) {
+    main: function(waktu) {
         this.energy -= waktu;
         console.log(`Halo ${this.nama}`);
     }
-
-
 }
 
-let febrian = new Mahasiswa('Dimas', 20);
+function Mahasiswa(nama, energy) {
+    let mahasiswa = Object.create(methodMahasiswa);
+    mahasiswa.nama = nama;
+    mahasiswa.energy = energy;
+
+    return mahasiswa;
+} 
+
+let febrian = Mahasiswa('Dimas', 20);
+
+
+//contructor function--------------------------
+// function Mahasiswa(nama, energy) {
+//     this.nama = nama;
+//     this.energy = energy;
+
+//     this.makan = function(porsi) {
+//         this.energy += porsi;
+//         console.log(`Hello ${this.nama}`);
+//     }
+
+//     this.main = function(waktu) {
+//         this.energy -= waktu;
+//         console.log(`Halo ${this.nama}`);
+//     }
+
+
+// }
+
+// let febrian = new Mahasiswa('Dimas', 20);
