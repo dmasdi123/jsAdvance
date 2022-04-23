@@ -102,19 +102,19 @@
 // let febrian = new Mahasiswa('Dimas', 20);
 
 //veri class------------------------------------
-class Mahasiswa {
-    constructor(nama, energy){
-        this.nama = nama;
-        this.energy = energy;
-    }
+// class Mahasiswa {
+//     constructor(nama, energy){
+//         this.nama = nama;
+//         this.energy = energy;
+//     }
 
-    makan(porsi) {
-        this.energy += porsi;
-        return `halo ${this.nama}`;
-    }
-    main(jam) {
-        this.energy -= jam;
-        return `halo ${this.nama}`;
-    }
-}
-let febrian = new Mahasiswa('Dimas', 20);
+//     makan(porsi) {
+//         this.energy += porsi;
+//         return `halo ${this.nama}`;
+//     }
+//     main(jam) {
+//         this.energy -= jam;
+//         return `halo ${this.nama}`;
+//     }
+// }
+// let febrian = new Mahasiswa('Dimas', 20);
