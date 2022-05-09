@@ -1,0 +1,20 @@
+[
+    {
+        "nama": "febrian",
+        "nim" : 2018420064,
+        "jurusan": "informatika",
+        "idDosenWali": 1
+    },
+    {
+        "nama": "dimas",
+        "nim" : 2018420054,
+        "jurusan": "informatika",
+        "idDosenWali": 2
+    },
+    {
+        "nama": " winaputra",
+        "nim" : 2018420054,
+        "jurusan": "informatika",
+        "idDosenWali": 3
+    }
+]
