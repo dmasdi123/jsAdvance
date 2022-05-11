@@ -41,7 +41,7 @@
 console.log('mulai');
 $.ajax({
     url: 'data/mahasiswa.json',
-    succes: (mhs) => {
+    succes: function(mhs) {
         mhs.forEach( m => console.log(m.nama));
     },
     error: (e) => {
