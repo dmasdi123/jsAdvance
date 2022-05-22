@@ -1,54 +1,54 @@
 //for of-----------------------------------
 const mhs = ['febrian', 'dimas', 'koleng'];
 
-// for(let = i; i<mhs.length; i++) {
-//     console.log(mhs[i]);
-// }
+for(let = i; i<mhs.length; i++) {
+    console.log(mhs[i]);
+}
 
 
-// mhs.forEach( (i) => {
-//     console.log(i);
-// });
+mhs.forEach( (i) => {
+    console.log(i);
+});
 
-// for(const m of mhs) {
-//     console.log(m);
-// }
-
-
-// string
-// const nama = 'febrian'
-// for(n of nama) {
-//     console.log(n);
-// }
+for(const m of mhs) {
+    console.log(m);
+}
 
 
-// mhs.forEach( (m, i) => {
-//     console.log(`${m} dengan mahasiswa ke ${i+1}`);
-// });
+// string------------------------------------------------------------------------------------------------
+const nama = 'febrian'
+for(n of nama) {
+    console.log(n);
+}
 
-//nodelist
-// const liNama = document.querySelectorAll('.nama');
 
-// liNama.forEach( (n) =>  {
-//     console.log(n.textContent);
-// });
+mhs.forEach( (m, i) => {
+    console.log(`${m} dengan mahasiswa ke ${i+1}`);
+});
 
-// for( n of liNama) {
-//     console.log(n.innerHTML);
-// }
+//nodelist------------------------------------------------------------------------------------------------
+const liNama = document.querySelectorAll('.nama');
 
-//arguments untuk for of
-// function jumlahAngka() {
-//     let jumlah = 0;
-//     for(a of arguments) {
-//         jumlah += a;
-//     }
-//     return jumlah;
-// }
+liNama.forEach( (n) =>  {
+    console.log(n.textContent);
+});
 
-// console.log(jumlahAngka(1, 2, 3, 4, 5));
+for( n of liNama) {
+    console.log(n.innerHTML);
+}
 
-//for in 
+//arguments untuk for of------------------------------------------------------------------------------------------------
+function jumlahAngka() {
+    let jumlah = 0;
+    for(a of arguments) {
+        jumlah += a;
+    }
+    return jumlah;
+}
+
+console.log(jumlahAngka(1, 2, 3, 4, 5));
+
+//for in ------------------------------------------------------------------------------------------------
 const mhs2 = {
     nama: 'febrian',
     umur: 22

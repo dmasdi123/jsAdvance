@@ -1,33 +1,33 @@
-//HTML fragment -----------------------
-// const mhs = {
-//     nama: 'febrian dimas',
-//     umur: 22,
-//     nrp: 2018420064
-// };
+//HTML fragment -----------------------------------------------------------------------------------------------------------------------
+const mhs = {
+    nama: 'febrian dimas',
+    umur: 22,
+    nrp: 2018420064
+};
 
-// const el = `<div class="mhs">
-//     <h2>${mhs.nama}</h2>
-//     <span class="nrp"> ${mhs.nrp} </span>
-// </div>`;
+const el = `<div class="mhs">
+    <h2>${mhs.nama}</h2>
+    <span class="nrp"> ${mhs.nrp} </span>
+</div>`;
 
-// document.body.innerHTML = el;
+document.body.innerHTML = el;
 
-//conditional with tenary--------------------
-// const mhs2 = {
-//     nama: 'febrian dimas',
-//     umur: 22,
-//     nrp: 2018420064
-// };
+//conditional with tenary--------------------------------------------------------------------------------------------------------------------
+const mhs2 = {
+    nama: 'febrian dimas',
+    umur: 22,
+    nrp: 2018420064
+};
 
-// const el2 = `<div class="mhs">
-//     <h2>${mhs2.nama}</h2>
-//     <span class="nrp"> ${mhs2.nrp} umur ${mhs2.umur ? `( umur ${mhs2.umur})` : ''} </span>
-// </div>`;
+const el2 = `<div class="mhs">
+    <h2>${mhs2.nama}</h2>
+    <span class="nrp"> ${mhs2.nrp} umur ${mhs2.umur ? `( umur ${mhs2.umur})` : ''} </span>
+</div>`;
 
-// document.body.innerHTML = el2;
+document.body.innerHTML = el2;
 
 
-//nested HTML fragment-----------------------
+//nested HTML fragment-----------------------------------------------------------------------------------------------------------------------
 const mhs3 = {
     nama: 'febrian dimas',
     semester: 5,

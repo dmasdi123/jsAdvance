@@ -18,21 +18,21 @@
 // const [ketua, wakil, ...anggota] = kelompok1;
 // console.log(anggota);
 
-//object destructuting
-// const team = {
-//     pm: 'Febrian',
-//     fronEnd1: 'Dimas',
-//     frontEnd2: 'Jason',
-//     backEnd: 'Roy',
-//     ux: 'Miller',
-//     devOps: 'Agus'
-// }
+//object destructuting------------------------------------------------------------------------------------------------
+const team = {
+    pm: 'Febrian',
+    fronEnd1: 'Dimas',
+    frontEnd2: 'Jason',
+    backEnd: 'Roy',
+    ux: 'Miller',
+    devOps: 'Agus'
+}
 
-// const [pm, ...myTeam] = team;
-// console.log(myTeam);
+const [pm, ...myTeam] = team;
+console.log(myTeam);
 
-//filtering 
-// function filterBy(type, ...values) {
-//     return values.filter(v => typeof v === type);
-// }
-// console.log(filterBy('number', 2, 3,'Dimas', false));
+//filtering ------------------------------------------------------------------------------------------------
+function filterBy(type, ...values) {
+    return values.filter(v => typeof v === type);
+}
+console.log(filterBy('number', 2, 3,'Dimas', false));

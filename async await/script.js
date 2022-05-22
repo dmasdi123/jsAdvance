@@ -20,10 +20,10 @@ function cobaPromise() {
 }
 
 //using then and catch
-// const coba = cobaPromise();
-// coba
-// .then( () => console.losg(coba))
-// .catch( () => console.log(coba));
+const coba = cobaPromise();
+coba
+.then( () => console.losg(coba))
+.catch( () => console.log(coba));
 
 //using async and await
 async function cobaAsync() {
